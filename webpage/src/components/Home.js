@@ -1,10 +1,10 @@
 import React from 'react';
- 
+
 const home = () => {
     return (
        <div>
           <h1>Home</h1>
-           <p>Home page body content</p>
+           <p>Put hearing all groups landing page here</p>
        </div>
     );
 }
