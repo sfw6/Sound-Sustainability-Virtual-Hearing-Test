@@ -1,25 +1,82 @@
-body {
-  background: white;
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover, a:active {
+  color: #FF914D;
+}
+
+
+/* Main Content Start */
+
+.main-content {
+  left: 0px;
+  top: 100px;
+}
+
+/* Main Content End */
 
 /* Header Navigation Bar Start */
 
 .header {
-  /* position: absolute;
-  width: 1440px;
-  height: 107px;
-  left: 0px;
-  top: 0px;
-  
-  filter: drop-shadow(0px 2px 6px #A8A8A8); */
+  background-color: white;
+  height: 80px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
 }
 
-#logo-header {
-  color: #FF914D;
+.header #logo-header {
+  margin: 20px
+}
+
+.header .nav-btn {
+  margin: 10px;
+  padding: 10px;
 }
 
 /* Header Navigation Bar End */
 
+/* About Page Start */
+
+#about-us {
+  padding: 50px 100px;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+#about-us-title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.about-paragraph {
+  margin: 5%;
+}
+
+/* About Page End */
+
+
+
+
+
+
+/* MOBILE FIRST */
 
 @media (max-width: 1024px ) {
   body {

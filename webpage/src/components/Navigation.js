@@ -1,4 +1,5 @@
-import React from 'react';
+// Navigation Bar and Header
+import React, {Component} from 'react';
 import { NavLink } from 'react-router-dom';
  
 const Navigation = () => {
@@ -7,15 +8,15 @@ const Navigation = () => {
             <div id="logo-header">
                 <NavLink to="/">Sound Sustainability</NavLink>
             </div>
-            <div id="nav-links">   
-                <NavLink to="/hearingscreening">Hearing Screening</NavLink>
-                <NavLink to="/about">Education</NavLink>
-                <NavLink to="/about">Devices</NavLink>
-                <NavLink to="/about">About Us</NavLink>
-                <NavLink to="/about">Sign In</NavLink>
+            <div id="nav-links">
+                <NavLink className="nav-btn" to="/hearingscreening">Hearing Screening</NavLink>
+                <NavLink className="nav-btn" to="/about">Education</NavLink>
+                <NavLink className="nav-btn" to="/about">Devices</NavLink>
+                <NavLink className="nav-btn" to="/about">About Us</NavLink>
+                <NavLink className="nav-btn" to="/about">Sign In</NavLink>
             </div>
        </div>
     );
 }
- 
+
 export default Navigation;
