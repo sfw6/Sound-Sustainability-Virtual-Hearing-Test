@@ -38,28 +38,28 @@ class MainAboutSection extends Component {
                   </div>
                   <div className="card-group">
                      <div className="card">
-                        <img src="img/mshriner.jpg" className="card-img-top" alt="Michelle Ponting" />
+                        <img src="./img/mshriner.jpg" className="card-img-top" alt="Markus Shriner" />
                         <div className="card-body">
                            <h5 className="card-text font-weight-normal">Marcus Shriner</h5>
                            <p className="card-text">Project Manager + Front-End Developer</p>
                         </div>
                      </div>
                      <div className="card">
-                        <img src="img/anguyen.jpg" className="card-img-top" alt="Michelle Ponting" />
+                        <img src="./img/anguyen.jpg" className="card-img-top" alt="Alycia Nguyen" />
                         <div className="card-body">
                            <h5 className="card-text font-weight-normal">Alycia Nguyen</h5>
                            <p className="card-text">Back-End Developer + Vizualization Designer</p>
                         </div>
                      </div>
                      <div className="card">
-                        <img src="img/mponting.jpg" className="card-img-top" alt="Michelle Ponting" />
+                        <img src="./img/mponting.jpg" className="card-img-top" alt="Michelle Ponting" />
                         <div className="card-body">
                            <h5 className="card-text font-weight-normal">Michelle Ponting</h5>
                            <p className="card-text">Front-End Developer + UX Designer</p>
                         </div>
                      </div>
                      <div className="card">
-                        <img src="img/swerner.jpg" className="card-img-top" alt="Michelle Ponting" />
+                        <img src="./img/swerner.jpg" className="card-img-top" alt="Sophie Werner" />
                         <div className="card-body">
                            <h5 className="card-text font-weight-normal">Sophie Werner</h5>
                            <p className="card-text">Back-End Developer + Cyber Security Speicalist</p>
